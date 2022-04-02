@@ -1,0 +1,101 @@
+﻿@{
+    ViewData["Title"] = "Logout";
+}
+<div class="twitter-login-box">
+    <form asp-action="LogoutUser">
+        <h1>Do you want to end your session? </h1>
+        <p>You're about to end your active Twitter sessionm and you'll need to log in agaiin on these device to star a new one.</p>
+        <div class="footer">
+            <button type="submit" class="twitter-btn">Logout</button>
+            <br />
+            <button class="twitter-btn-grey" asp-area="" asp-controller="Home" asp-action="Index">Cancel</button>
+        </div>
+    </form>
+</div>
+
+<style>
+/*      body{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        /* Gradient from https://uigradients.com */
+       /* background: #00B4DB;
+        background: -webkit-linear-gradient(to right, #0083B0, #00B4DB);
+        background: linear-gradient(to right, #0083B0, #00B4DB);
+        }*/
+        .twitter-login-box {
+          max-width: 600px;
+          margin: 20px auto;
+        }
+
+        .twitter-login-box header img {
+          width: 70px;
+        }
+
+        .twitter-login-box header {
+          text-align: center;
+        }
+        .input-wrapper {
+          margin-bottom: 15px;
+        }
+
+        .input-wrapper label,
+        .input-wrapper input {
+          width: 100%;
+          display: block;
+        }
+
+        .input-wrapper input {
+          border: none;
+          background-color: #eee;
+          padding: 10px;
+          font-size: 20px;
+          border-bottom: 3px solid #6a6a6a;
+        }
+
+        .input-wrapper input[type="password"] {
+          border-bottom: 3px solid red;
+        }
+
+        .input-wrapper input:focus {
+          outline: none;
+        }
+
+        .input-wrapper label {
+          background-color: #eee;
+          padding: 10px;
+          color: #6a6a6a;
+        }
+
+        .twitter-btn {
+          background-color: #33b3ee;
+          border: none;
+          width: 100%;
+          padding: 15px;
+          border-radius: 30px;
+          color: #fff;
+          font-size: 20px;
+          font-weight: bold;
+        }
+
+        .twitter-btn-grey {
+          background-color: #e6e6e6;
+          border: none;
+          width: 100%;
+          padding: 15px;
+          border-radius: 30px;
+          color: black;
+          font-size: 20px;
+          font-weight: bold;
+        }
+
+        .twitter-login-box .footer {
+          text-align: center;
+          margin-top: 20px;
+          color: #33b3ee;
+        }
+        .twitter-login-box .footer a {
+          color: #33b3ee;
+          text-decoration: none;
+        }
+  </style>

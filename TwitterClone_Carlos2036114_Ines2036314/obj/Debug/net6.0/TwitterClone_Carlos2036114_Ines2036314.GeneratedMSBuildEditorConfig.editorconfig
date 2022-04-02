@@ -1,0 +1,72 @@
+is_global = true
+build_property.TargetFramework = net6.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = TwitterClone_Carlos2036114_Ines2036314
+build_property.RootNamespace = TwitterClone_Carlos2036114_Ines2036314
+build_property.ProjectDir = C:\Users\andre\Documents\GitHub\Projecto-final_-Twitter-Backup-mudan-as\TwitterClone_Carlos2036114_Ines2036314\
+build_property.RazorLangVersion = 6.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Users\andre\Documents\GitHub\Projecto-final_-Twitter-Backup-mudan-as\TwitterClone_Carlos2036114_Ines2036314
+build_property._RazorSourceGeneratorDebug = 
+
+[C:/Users/andre/Documents/GitHub/Projecto-final_-Twitter-Backup-mudan-as/TwitterClone_Carlos2036114_Ines2036314/Views/Home/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/andre/Documents/GitHub/Projecto-final_-Twitter-Backup-mudan-as/TwitterClone_Carlos2036114_Ines2036314/Views/Home/Image.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbWFnZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/andre/Documents/GitHub/Projecto-final_-Twitter-Backup-mudan-as/TwitterClone_Carlos2036114_Ines2036314/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/andre/Documents/GitHub/Projecto-final_-Twitter-Backup-mudan-as/TwitterClone_Carlos2036114_Ines2036314/Views/Home/Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxMb2dpbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/andre/Documents/GitHub/Projecto-final_-Twitter-Backup-mudan-as/TwitterClone_Carlos2036114_Ines2036314/Views/Home/Logout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxMb2dvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/andre/Documents/GitHub/Projecto-final_-Twitter-Backup-mudan-as/TwitterClone_Carlos2036114_Ines2036314/Views/Home/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/andre/Documents/GitHub/Projecto-final_-Twitter-Backup-mudan-as/TwitterClone_Carlos2036114_Ines2036314/Views/Home/Profile.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcm9maWxlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/andre/Documents/GitHub/Projecto-final_-Twitter-Backup-mudan-as/TwitterClone_Carlos2036114_Ines2036314/Views/Home/Signup.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxTaWdudXAuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/andre/Documents/GitHub/Projecto-final_-Twitter-Backup-mudan-as/TwitterClone_Carlos2036114_Ines2036314/Views/Home/UploadImage.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxVcGxvYWRJbWFnZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/andre/Documents/GitHub/Projecto-final_-Twitter-Backup-mudan-as/TwitterClone_Carlos2036114_Ines2036314/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/andre/Documents/GitHub/Projecto-final_-Twitter-Backup-mudan-as/TwitterClone_Carlos2036114_Ines2036314/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/andre/Documents/GitHub/Projecto-final_-Twitter-Backup-mudan-as/TwitterClone_Carlos2036114_Ines2036314/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/andre/Documents/GitHub/Projecto-final_-Twitter-Backup-mudan-as/TwitterClone_Carlos2036114_Ines2036314/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/andre/Documents/GitHub/Projecto-final_-Twitter-Backup-mudan-as/TwitterClone_Carlos2036114_Ines2036314/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-ea8ur7fvtq

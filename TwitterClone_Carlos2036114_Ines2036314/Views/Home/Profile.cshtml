@@ -1,0 +1,53 @@
+﻿@*tuple https://social.msdn.microsoft.com/Forums/en-US/132e8720-b31a-4b3b-94fe-4a068d28e7ef/how-people-use-tuple-in-mvc?forum=aspmvc *@
+@model Tuple<User,IEnumerable<Post>>
+@{
+    ViewData["Title"] = "Profile Page";
+}
+
+    
+<div class="text-center">
+    <h1 class="display-4">Welcome</h1>
+    <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+
+    <table class="table">
+        <thead>
+            <tr>
+                <th>
+                    User
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => @Model.Item1.profileImage)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => @Model.Item1.userName)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => @Model.Item1.userTag)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => @Model.Item1.creationDate)
+                </th>
+                          
+                
+                <th></th>
+            </tr>
+        </thead>
+        <tbody>
+           
+            @foreach (var item in Model.Item2)
+            {
+                <tr>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.contentText)
+                    </td>                   
+                </tr>
+            }
+
+            <div>
+                <a asp-action="Edit Profile" asp-route-id="@Model.Item1.userId">Edit Profile</a> 
+                <a asp-action="Delete Profile" asp-route-id="@Model.Item1.userId">Delete Profile</a>
+                <a asp-action="Index">Back to List</a>
+            </div>
+        </tbody>
+    </table>
+</div>

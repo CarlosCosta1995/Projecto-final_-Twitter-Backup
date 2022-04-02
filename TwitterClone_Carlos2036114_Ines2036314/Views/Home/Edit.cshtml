@@ -1,0 +1,37 @@
+﻿@model TwitterClone_Carlos2036114_Ines2036314.Models.Post
+@{
+    ViewData["Title"] = "Edit";
+}
+<h1>@ViewData["Title"]</h1>
+
+
+
+<h4>Movie</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Edit" > <!--Cria uma açção [asp-action] para o Edit-->
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="contentText" class="control-label"></label>
+                <input asp-for="contentText" class="form-control" />
+
+                <label asp-for="postId" class="control-label"></label>
+                <input asp-for="postId" class="form-control" />
+
+                <label asp-for="topicTag" class="control-label"></label>
+                <input asp-for="topicTag" class="form-control" />
+
+            </div>
+           
+            <div class="form-group">
+                 <input id="docActionId" asp-for="postId" type="hidden" value="initialValue" />
+                <input type="submit" value="Edit" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>

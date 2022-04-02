@@ -1,0 +1,16 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "328ed277-0b5b-45db-aa6c-d3a2ed5f3725": {
+      "ProjectGuid": "328ed277-0b5b-45db-aa6c-d3a2ed5f3725",
+      "DisplayName": "TwitterClone_Carlos2036114_Ines2036314",
+      "ColorIndex": 0
+    },
+    "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3": {
+      "ProjectGuid": "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3",
+      "DisplayName": "Arquivos Diversos",
+      "ColorIndex": -1
+    }
+  },
+  "NextColorIndex": 1
+}

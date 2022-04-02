@@ -1,0 +1,109 @@
+﻿@model TwitterClone_Carlos2036114_Ines2036314.Models.User
+@{
+    ViewData["Title"] = "Login";
+}
+
+<div class="twitter-login-box">
+    <header>
+      <img src="https://static01.nyt.com/images/2014/08/10/magazine/10wmt/10wmt-jumbo-v4.jpg?quality=90&auto=webp" alt="twitter logo">
+      <h1>Login To Twitter</h1>
+    </header>
+
+    <form asp-action="Login">
+      <div class="input-wrapper">
+        <label asp-for="userName" class="control-label"> User Name</label>
+        <input asp-for="userName" class="form-control" />
+        <span asp-validation-for="userName" class="text-danger"></span>
+      </div>
+
+      <div class="input-wrapper">
+        <label asp-for="Password" class="control-label">Password</label>
+        <input asp-for="Password" type="password" class="form-control" />
+        <span asp-validation-for="Password" class="text-danger"></span>
+      </div>
+
+      <button type="submit" class="twitter-btn">Login</button>
+    </form>
+
+    <div class="footer">
+      @*<a href="#">Forget Password</a>*@
+       <a asp-area="" asp-controller="Home" asp-action="Signup">Signup</a>
+    </div>
+
+  </div>
+
+  <style>
+/*      body{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        /* Gradient from https://uigradients.com */
+       /* background: #00B4DB;
+        background: -webkit-linear-gradient(to right, #0083B0, #00B4DB);
+        background: linear-gradient(to right, #0083B0, #00B4DB);
+        }*/
+        .twitter-login-box {
+          max-width: 600px;
+          margin: 20px auto;
+        }
+
+        .twitter-login-box header img {
+          width: 70px;
+        }
+
+        .twitter-login-box header {
+          text-align: center;
+        }
+        .input-wrapper {
+          margin-bottom: 15px;
+        }
+
+        .input-wrapper label,
+        .input-wrapper input {
+          width: 100%;
+          display: block;
+        }
+
+        .input-wrapper input {
+          border: none;
+          background-color: #eee;
+          padding: 10px;
+          font-size: 20px;
+          border-bottom: 3px solid #6a6a6a;
+        }
+
+        .input-wrapper input[type="password"] {
+          border-bottom: 3px solid red;
+        }
+
+        .input-wrapper input:focus {
+          outline: none;
+        }
+
+        .input-wrapper label {
+          background-color: #eee;
+          padding: 10px;
+          color: #6a6a6a;
+        }
+
+        .twitter-btn {
+          background-color: #33b3ee;
+          border: none;
+          width: 100%;
+          padding: 15px;
+          border-radius: 30px;
+          color: #fff;
+          font-size: 20px;
+          font-weight: bold;
+        }
+
+        .twitter-login-box .footer {
+          text-align: center;
+          margin-top: 20px;
+          color: #33b3ee;
+        }
+        .twitter-login-box .footer a {
+          color: #33b3ee;
+          text-decoration: none;
+        }
+  </style>

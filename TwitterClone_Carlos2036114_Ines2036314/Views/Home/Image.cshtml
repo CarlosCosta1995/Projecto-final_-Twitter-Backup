@@ -1,0 +1,10 @@
+﻿@model User
+
+@*@{
+    var img = "/staticImage/" + @Model.profileImage.ToString();
+}*@
+
+<div>
+    <img src="../staticImage/@Model.profileImage" title="ProfileImage"/>
+    @*<img src="@img" title="ProfileImage"/>*@
+</div>
